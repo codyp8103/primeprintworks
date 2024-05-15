@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.cron" id="fetch_designs_cron">
+        <field name="name">PitchPrint: Fetch Product Designs</field>
+        <field name="model_id" ref="ous_pitchprint_web2print.model_product_design" />
+        <field name="state">code</field>
+        <field name="code">model.fetch_designs()</field>
+        <field name="user_id" ref="base.user_root" />
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="numbercall">-1</field>
+    </record>
+</odoo>
+
+       

@@ -1,0 +1,416 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: ous_pitchprint_web2print - 17.0\n"
+"Language: fr\n"
+
+#. module: ous_pitchprint_web2print
+#: model:mail.template,body_html:ous_pitchprint_web2print.email_template_sales_order
+msgid "\n"
+"            <div>\n"
+"            <p>Hello <t t-out=\"object.partner_id.name\" contenteditable=\"false\" data-oe-t-inline=\"true\"></t>,<br>\n"
+"            <br>\n"
+"            Thank you for submitting your order.<br>We can confirm that the design file(s) have been received.<br>\n"
+"            See attached design proof, if there is any issue please get in touch ASAP.</p>\n"
+"            <p>Regards,</p>\n"
+"            <p><strong t-out=\"object.company_id.name\" contenteditable=\"false\"></strong></p>\n"
+"            </div>\n"
+"        "
+msgstr "\n"
+"            <div>\n"
+"            <p>Bonjour <t t-out=\"object.partner_id.name\" contenteditable=\"false\" data-oe-t-inline=\"true\"></t>,<br>\n"
+"            <br>\n"
+"            Merci d'avoir soumis votre commande.<br>Nous pouvons confirmer que le(s) fichier(s) de conception ont été reçus.<br>\n"
+"            Voir la preuve de conception ci-jointe. En cas de problème, veuillez nous contacter dès que possible.</p>\n"
+"            <p>Cordialement,</p>\n"
+"            <p><strong t-out=\"object.company_id.name\" contenteditable=\"false\"></strong></p>\n"
+"            </div>\n"
+"        "
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.pitchprint_product_page
+msgid "<i class=\"fa fa-pencil mr-2 me-2\"/>CUSTOMISE"
+msgstr "<i class=\"fa fa-pencil mr-2 me-2\"/>PERSONNALISER"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.portal_sale_order_inherit
+msgid "<i class=\"fa fa-shopping-cart me-1\"/> Reorder Custom Designs"
+msgstr "<i class=\"fa fa-shopping-cart me-1\"/> Réorganiser les modèles personnalisés"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.pitchprint_product_page
+msgid "<i class=\"fa fa-trash mr-2 me-2\"/>RESET DESIGNS"
+msgstr "<i class=\"fa fa-trash mr-2 me-2\"/>RÉINITIALISER LES CONCEPTIONS"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.pitchprint_cart_line
+msgid "<span class=\"badge bg-secondary badge-secondary\">Review Design</span>"
+msgstr "<span class=\"badge bg-secondary badge-secondary\">Revoir la conception</span>"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__active
+msgid "Active"
+msgstr "Actif"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.actions.act_url,name:ous_pitchprint_web2print.pitchprint_admin_portal_action
+#: model:ir.ui.menu,name:ous_pitchprint_web2print.pitchprint_admin_portal
+msgid "Admin Portal"
+msgstr "Portail d'administration"
+
+#. module: ous_pitchprint_web2print
+#: model:res.groups,name:ous_pitchprint_web2print.group_pitchprint_admin
+msgid "Administrator"
+msgstr "Administrateur"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.product_design_view_search
+msgid "Archived"
+msgstr "Archivé"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.product_design_view_search
+msgid "Archived-In Use"
+msgstr "Archivé en cours d'utilisation"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.res_config_settings_view_form
+msgid "Are you sure you wish to download the latest data?"
+msgstr "Etes-vous sûr de vouloir télécharger les dernières données ?"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__category_id
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.product_design_view_search
+msgid "Category"
+msgstr "Catégorie"
+
+#. module: ous_pitchprint_web2print
+#. odoo-javascript
+#: code:addons/ous_pitchprint_web2print/static/src/js/pitchprint_client.js:0
+msgid "Change colour in shop"
+msgstr "Changer de couleur en boutique"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model,name:ous_pitchprint_web2print.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de configuration"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.ui.menu,name:ous_pitchprint_web2print.pitchprint_config
+msgid "Configuration"
+msgstr "Configuration"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_res_config_settings__pp_mail_template_id
+msgid "Confirmation Email Template"
+msgstr "Modèle de courriel de confirmation"
+
+#. module: ous_pitchprint_web2print
+#: model:mail.template,subject:ous_pitchprint_web2print.email_template_sales_order
+msgid "Confirmation of custom design"
+msgstr "Confirmation de la conception personnalisée"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_sale_order__custom_printdesign_count
+msgid "Custom Printdesign Count"
+msgstr "Nombre de conceptions d'impression personnalisées"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.product_design_view_kanban
+msgid "Design"
+msgstr "Conception"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__design_id
+msgid "Design ID"
+msgstr "ID de conception"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.view_sale_order_inherit_form
+msgid "Design Preview"
+msgstr "Aperçu de la conception"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__display_name
+msgid "Display Name"
+msgstr "Afficher un nom"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.res_config_settings_view_form
+msgid "Email Template for Sale Order Confirmation"
+msgstr "Modèle d'e-mail pour la confirmation de commande de vente"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,help:ous_pitchprint_web2print.field_res_config_settings__pp_mail_template_id
+msgid "Email to send when sale order confirmed with a custom design."
+msgstr "Email à envoyer lors de la confirmation de la commande avec un design personnalisé."
+
+#. module: ous_pitchprint_web2print
+#. odoo-python
+#: code:addons/ous_pitchprint_web2print/models/sale_order_inherit.py:0
+msgid "Error retrieving design images/PDF from PitchPrint, check Design ID."
+msgstr "Erreur lors de la récupération des images de conception/PDF à partir de PitchPrint, vérifiez l'ID de conception."
+
+#. module: ous_pitchprint_web2print
+#. odoo-python
+#: code:addons/ous_pitchprint_web2print/models/product_design.py:0
+msgid "Error while fetching product designs from PitchPrint. Check API Key and Secret Key."
+msgstr "Erreur lors de la récupération des conceptions de produits depuis PitchPrint. Vérifiez la clé API et la clé secrète."
+
+#. module: ous_pitchprint_web2print
+#. odoo-python
+#: code:addons/ous_pitchprint_web2print/models/sale_order_inherit.py:0
+msgid "Error whilst retrieving design images/PDF from PitchPrint, check connection and API key."
+msgstr "Erreur lors de la récupération des images de conception/PDF depuis PitchPrint, vérifiez la connexion et la clé API."
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.res_config_settings_view_form
+msgid "Fetch Latest Designs"
+msgstr "Récupérer les dernières créations"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.product_design_view_search
+msgid "Group By"
+msgstr "Par groupe"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model,name:ous_pitchprint_web2print.model_ir_http
+msgid "HTTP Routing"
+msgstr "Routage HTTP"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__id
+msgid "ID"
+msgstr "IDENTIFIANT"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.pitchprint_cart_line_id
+msgid "ID:"
+msgstr "IDENTIFIANT:"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__image
+msgid "Image"
+msgstr "Image"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__lastModified
+msgid "Last Modified"
+msgstr "Dernière modification"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_sale_order_line__pitchprint_project_id
+msgid "PP Project"
+msgstr "Projet PP"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.module.category,name:ous_pitchprint_web2print.module_category_pitchprint
+#: model:ir.ui.menu,name:ous_pitchprint_web2print.pitchprint_menu_root
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.view_product_inherit_form
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.view_product_template_inherit_form
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.view_product_variant_easy_inherit_form
+msgid "PitchPrint"
+msgstr "PitchPrint"
+
+#. module: ous_pitchprint_web2print
+#: model:mail.template,name:ous_pitchprint_web2print.email_template_sales_order
+msgid "PitchPrint - Order Confirmation"
+msgstr "PitchPrint - Confirmation de commande"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.module.category,description:ous_pitchprint_web2print.module_category_pitchprint
+msgid "PitchPrint - Web2Print"
+msgstr "PitchPrint - Web2Print"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_res_config_settings__pp_api_key
+msgid "PitchPrint API Key"
+msgstr "Clé API PitchPrint"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.res_config_settings_view_form
+msgid "PitchPrint API Settings"
+msgstr "Paramètres de l'API PitchPrint"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.res_config_settings_view_form
+msgid "PitchPrint Control Panel"
+msgstr "Panneau de configuration PitchPrint"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_product__is_pitchprint_design
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_template__is_pitchprint_design
+msgid "PitchPrint Design"
+msgstr "Conception d'impression de pitch"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_product__pitchprint_design_id
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_template__pitchprint_design_id
+msgid "PitchPrint Design ID"
+msgstr "ID de conception PitchPrint"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_sale_order__custom_printdesigns
+#: model:ir.ui.menu,name:ous_pitchprint_web2print.pitchprint_product_design
+msgid "PitchPrint Designs"
+msgstr "Conceptions PitchPrint"
+
+#. module: ous_pitchprint_web2print
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.res_config_settings_view_form
+msgid "PitchPrint Preferences"
+msgstr "Préférences PitchPrint"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_res_config_settings__pp_secret_key
+msgid "PitchPrint Secret Key"
+msgstr "Clé secrète PitchPrint"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_product__variant_design_id
+msgid "PitchPrint Variant Design ID"
+msgstr "ID de conception de variante PitchPrint"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.actions.server,name:ous_pitchprint_web2print.fetch_designs_cron_ir_actions_server
+msgid "PitchPrint: Fetch Product Designs"
+msgstr "PitchPrint : récupérer des conceptions de produits"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__previews
+msgid "Previews"
+msgstr "Aperçus"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model,name:ous_pitchprint_web2print.model_product_template
+msgid "Product"
+msgstr "Produit"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__product_count
+msgid "Product Count"
+msgstr "Nombre de produits"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model,name:ous_pitchprint_web2print.model_product_design
+msgid "Product Design"
+msgstr "La conception des produits"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.actions.act_window,name:ous_pitchprint_web2print.pitchprint_product_design_action
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.product_design_view_form
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.product_design_view_search
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.product_design_view_tree
+msgid "Product Designs"
+msgstr "Conceptions de produits"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model,name:ous_pitchprint_web2print.model_product_product
+msgid "Product Variant"
+msgstr "Variante de produit"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.actions.act_window,name:ous_pitchprint_web2print.pitchprint_product_variants_action
+#: model:ir.ui.menu,name:ous_pitchprint_web2print.pitchprint_product_variants
+msgid "Product Variants"
+msgstr "Variantes de produits"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.actions.act_window,name:ous_pitchprint_web2print.pitchprint_products_action
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__product_id
+#: model:ir.ui.menu,name:ous_pitchprint_web2print.pitchprint_products
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.product_design_view_form
+msgid "Products"
+msgstr "Des produits"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_res_config_settings__require_login_checkout
+msgid "Require Login To Checkout"
+msgstr "Exiger une connexion pour procéder au paiement"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model,name:ous_pitchprint_web2print.model_sale_order
+msgid "Sales Order"
+msgstr "Commande client"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model,name:ous_pitchprint_web2print.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Ligne de commande client"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,help:ous_pitchprint_web2print.field_product_product__variant_design_id
+msgid "Set to overwrite the design specified on product template"
+msgstr "Définir pour écraser la conception spécifiée sur le modèle de produit"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.actions.act_window,name:ous_pitchprint_web2print.pitchprint_settings_action
+#: model:ir.ui.menu,name:ous_pitchprint_web2print.pitchprint_settings
+msgid "Settings"
+msgstr "Paramètres"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.constraint,message:ous_pitchprint_web2print.constraint_product_design_unique_design_id
+msgid "The Design ID must be unique."
+msgstr "L'ID de conception doit être unique."
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__name
+msgid "Title"
+msgstr "Titre"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__unit
+msgid "Unit"
+msgstr "Unité"
+
+#. module: ous_pitchprint_web2print
+#: model:res.groups,name:ous_pitchprint_web2print.group_pitchprint_user
+msgid "User"
+msgstr "Utilisateur"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__variant_count
+msgid "Variant Count"
+msgstr "Nombre de variantes"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.model.fields,field_description:ous_pitchprint_web2print.field_product_design__variant_id
+#: model_terms:ir.ui.view,arch_db:ous_pitchprint_web2print.product_design_view_form
+msgid "Variants"
+msgstr "Variantes"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.actions.act_window,name:ous_pitchprint_web2print.pitchprint_orders_action
+#: model:ir.ui.menu,name:ous_pitchprint_web2print.pitchprint_orders
+msgid "Web2Print Orders"
+msgstr "Commandes Web2Print"
+
+#. module: ous_pitchprint_web2print
+#: model:ir.ui.menu,name:ous_pitchprint_web2print.pitchprint_products_root
+msgid "Web2Print Products"
+msgstr "Produits Web2Print"
+
