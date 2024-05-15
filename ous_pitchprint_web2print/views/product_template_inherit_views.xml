@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="view_product_template_inherit_form" model="ir.ui.view">
+        <field name="name">product.template.view.form.inherit</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='general_information']" position="after">
+                <page name="pitchprint" string="PitchPrint">
+                    <group>
+                        <field name="is_pitchprint_design"/>
+                        <!-- V17 - Replaced attrs-->
+                        <field
+                            name="pitchprint_design_id"
+                            options="{'no_create': True, 'no_edit': True}"
+                            invisible="not is_pitchprint_design"
+                            required="is_pitchprint_design"
+                        />
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+    <record id="view_product_template_inherit_tree" model="ir.ui.view">
+        <field name="name">product.template.view.tree.inherit</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_tree_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="pitchprint_design_id" optional="show"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

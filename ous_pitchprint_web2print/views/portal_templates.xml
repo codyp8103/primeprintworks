@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="portal_sale_order_inherit" inherit_id="sale.sale_order_portal_template">
+        <xpath expr="//t[@t-set='entries']/div[1]/div[1]" position="inside">
+            <a t-if="sale_order.custom_printdesigns and sale_order.state in ['sale','done']" role="button" class="btn btn-primary d-block" t-attf-href="/orders/repeat?id=#{sale_order.id}" t-att-data-sale-order-id="sale_order.id">
+                <i class="fa fa-shopping-cart me-1"/> Reorder Custom Designs
+            </a>
+        </xpath>
+    </template>
+</odoo>
